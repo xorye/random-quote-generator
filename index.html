@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- jQuery 3.2.1 -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" 
+    crossorigin="anonymous">
+    </script>
+
+    <!-- jQuery UI -->
+    <script   src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="   crossorigin="anonymous">
+    </script>
+
+    <!-- External javascript and CSS -->
+    <script type="text/javascript" src="Quote Machine.js" ></script>
+    <link rel="stylesheet" type="text/css" href="Quote Machine.css">
+
+  </head>
+
+
+  <body id="main-body">
+    <div class="container-fluid">
+
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h1 class="white-text title">Random Quote Generator</h1>
+        </div>
+      </div>
+
+      <div class="row quote-div text-center">
+        <div class="col-md-12">
+          <blockquote class="blockquote">
+            <p class="quote white-text" id="quote">Click the button</p>
+          </blockquote>
+          <p class="author white-text" id="author">- Xorye</p> 
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="container-fluid button-div">
+      <div class="row text-center">
+        <div class="col-md-12">
+
+          <button id="get-quote" class="btn white-text">
+            Fetch Quote
+          </button>
+
+          <a id="twitter-link" href="https://twitter.com/share">
+            <button id="twitter-share-button" class="btn white-text">
+              Tweet
+            </button>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
