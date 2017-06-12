@@ -1,0 +1,93 @@
+.hidden{
+	display: none;
+}
+
+.white-text{
+	color:  #ffffff;
+}
+
+body{
+	margin-top: 20px;
+	background-color: #66ccff;
+}
+
+#author{
+	margin-top: -30px;
+}
+
+.quote-div{
+	margin: 125px auto;
+	width: 75%;
+}
+
+.button-div{
+	position: absolute;
+	top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 5%;
+    margin: auto;
+}
+
+.btn{
+	background-color: transparent;
+	border-color: white;
+	border-width: 2px;
+}
+
+.btn:hover{
+	opacity: 0.3;
+}
+
+a:hover, a:visited, a:link, a:active{
+	text-decoration: none;
+}
+
+.blockquote-footer{
+	color: white !imporant;
+}
+
+#get-quote{
+	display: block;
+	margin:0 auto;
+}
+
+#twitter-share-button{
+	display: block;
+	margin:8px auto;
+	width: 124px;
+}
+
+@media only screen and (max-width: 768px){
+	#twitter-share-button{
+		display: inline;
+		font-size: 40px;
+		width: 256px;
+		margin-left: 15px;
+	}
+
+	#get-quote{
+		display: inline;
+		font-size: 40px;
+		margin-right: 15px;
+	}
+
+	.button-div{
+		top: 500px;
+		width: 100%;
+	}
+
+	.title{
+		font-size: 55px;
+	}
+
+	.quote-div{
+		margin: 100px auto;	
+		width: 80%;
+	}
+}
+
+
+

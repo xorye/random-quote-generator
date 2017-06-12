@@ -1,1 +1,1 @@
-# random-quote-generator
+# xorye.guthub.io
